@@ -1,12 +1,12 @@
 import tweepy
 from textblob import TextBlob
 
-consumer_key = 'fluo93m7MbQTQWWkUoJjeLkwW'
-consumer_secret = 'klOSEAkK3yARMk8TQw6n2JQgtiVxDZB6Moq7OcvIlOGlV5McE5'
+consumer_key = '' # Get Key from Twitter dev channel
+consumer_secret = ''# Get Key from Twitter dev channel
 
 
-access_token = '363464909-hkMIzgJ5xz6IhbT2lOsDTCqac07vn9C01XLZ8UUm'
-access_token_secret = '8IMTD6Ua3Kf4DLYq93GRJdJkoyeSiQhDn4V5zrl4KLsBu'
+access_token = '' # Get token from Twitter dev channel
+access_token_secret = '' # Get token from Twitter dev channel
 
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
